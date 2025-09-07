@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  margin: 0;
+  transition: background 0.3s, color 0.3s;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #0077cc;
+  color: white;
+  padding: 10px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav {
+  position: relative;
+}
+
+#dropdownMenu {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  background: white;
+  color: black;
+  border: 1px solid #ddd;
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+}
+
+#dropdownMenu li {
+  margin: 5px 0;
+}
+
+#dropdownMenu.hidden {
+  display: none;
+}
+
+.dark-mode {
+  background: #121212;
+  color: #f1f1f1;
+}
+
+button {
+  margin: 5px;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.counter-box {
+  margin: 15px 0;
+}
+
+.faq-answer {
+  display: none;
+  margin: 5px 0;
+  color: #555;
+}
+
+.faq.active .faq-answer {
+  display: block;
+  background: #f9f9f9;
+  padding: 8px;
+  border-radius: 5px;
+}
+
